@@ -4,16 +4,31 @@
 using namespace std;
 #define ll long long
 
+template < typename K,typename V >
 class entry{
 public:
-    entry(const string& k,const string& v);
-    const string& key() const;
-    const string& value() const;
-    void setKey(const string& k);
-    void setValue(const string& v);
+    entry(const K& k,const V& v){
+      _key = k;
+      _value = v;
+    }
+    entry(){
+      
+    }
+    const K& key() const{
+      return _key;
+    }
+    const V& value() const{
+      return _value;
+    }
+    void setKey(const K& k){
+      _key = k;
+    }
+    void setValue(const V& v){
+      _value = v;
+    }
 private:
-    string _key;
-    string _value;
+    K _key;
+    V _value;
 };
 
 #endif
