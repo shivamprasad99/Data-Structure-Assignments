@@ -4,6 +4,7 @@ ASSIGNMENT 6
 SHIVAM PRASAD
 2017CSB1108
 ----------------------------------------------------------------------------------------------------------------------------
+THIS CODE IS PARTLY BORROWED FROM geeksforgeeks.org
 Extract the folder inside the zip file to some location.
 
 To compile the code, place all the files in the same directory and give the "make" 
